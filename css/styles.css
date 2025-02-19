@@ -38,6 +38,7 @@ font-family: var(--Lora-font);
 
 .nav-bar-list li{
     list-style: none;
+    cursor: pointer;
 
 }
 
@@ -69,32 +70,40 @@ font-family: var(--Lora-font);
 }
 
 /* modal-container */
- .modal-container {
-        position: absolute;
-        top: 77px;
-        right: 29px;
-        width: 260px;
-        height: 400px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(103, 103, 103);
-        border: solid green;
-        overflow-y: auto;
-        gap: 10px;
-    }
-    
-    .shop-card {
-        width: 100%;
-        height: 80px;
-        background-color: lightgray;
-        border: 1px solid #333;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-    }
+.modal-container {
+    position: absolute;
+    top: 4px;
+    right: 29px;
+    width: 300px;
+    height: 400px; /* Fixed height for the container */
+    background-color:rgb(233, 233, 233);
+    border: 1px solid grey;
+    border-radius: 10px;
+    z-index: 1;
+    padding: 10px;
+}
+.modal-container.show {
+    top: 4px; /* Move down smoothly into view */
+}
+.shop-cards{
+    width: 100%;
+    height: 100%; /* Fixed height for the container */
+    overflow-y: auto; /* Enable scrolling */
+    display: flex;
+    flex-direction: column;
+}
+.shop-card {
+    width: 100%;
+    height: 100px; /* Height of each card */
+    background-color: rgb(210, 209, 209);
+    border: 1px solid #d3d0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add space between the cards */
+}
+
 
 
 
@@ -102,7 +111,7 @@ font-family: var(--Lora-font);
     width: 60px;
     height: 60px;
     border-radius: 50px;
-    border: 1px solid rgb(255, 21, 21);
+    border: 1px solid rgb(255, 255, 255);
    
 }
 
@@ -115,13 +124,6 @@ font-family: var(--Lora-font);
     
 }
 
-.product-quantity button:first-of-type{
-  
-   border: 1px solid gray;
-   border-top-left-radius: 8px;
-   border-bottom-left-radius:8px;
-   cursor: pointer;
-}
 .midle-btn{
   
    border: 1px solid gray;
@@ -129,23 +131,23 @@ font-family: var(--Lora-font);
    border-bottom-left-radius:8px;
    cursor: pointer;
 }
-.product-quantity button:last-of-type{
-   
-    border: 1px solid gray;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius:8px;
-    cursor: pointer;
+.quantity{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: 400;
+    font-size: 26px;
 }
 
-
- .quantity{
-   display: flex;
-   align-items: center;
-   border: 1px solid gray;
-   background-color: #fff;
- }
-
-
+.checkoutbtn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
 /* modal-container */
 .hero-section:hover {
     border-color:darkred; 
@@ -177,8 +179,7 @@ font-family: var(--Lora-font);
 }
 
 .hero-btn{
-    height: 40px;
-    width: 100px;
+    padding: 10px;
     border-radius: 90px;
     border: none;
     background-color: rgb(176, 163, 163);
@@ -189,6 +190,9 @@ font-family: var(--Lora-font);
     background-color: orangered;
 }
 /*------hero section------*/
+
+
+
 /*-------main section------*/
 .brands h1 {
     justify-content: center;
@@ -285,14 +289,46 @@ font-family: var(--Lora-font);
 }
 
 /* cards */
+.cards-section{
+    display: flex;
+    gap: 10px;    
+}
+/* left-container */
+.left-container{
+    width: 25%;
+    padding: 20px;
+   
+    display: flex;
+   
+}
+
+.left-categories{
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+  
+    padding: 10px 20px;
+    gap: 10px;
+    
+}
+
+.left-categories button{
+    padding:7px;
+    border: none;
+    border-radius: 20px;
+    
+}
+.cards-left-section-btn{
+    color: red !important;
+    background-color: wheat !important;
+    
+}
+/* left-container */
 .cards-container{
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
-    margin: 0 auto;
     gap: 20px;
-
-
 }
 
 .card1{
@@ -304,21 +340,16 @@ font-family: var(--Lora-font);
     border: solid red;
     padding: 20px;
     overflow: hidden;
-    margin: auto;
 }
 
 .card-image img{
     width: 250px;
     /* transform: scaleX(-1) rotate(-14deg); */
     transform:  rotate(5deg); 
-    
-
 }
 
 .card-content{
-  
     z-index: 1;
-    
 }
 
 .card-content h1{
@@ -422,7 +453,7 @@ input:focus {
 }
 
 
-button {
+/* button {
     background-color: var(--shoe-color);
     color: white;
     border: none;
@@ -436,7 +467,7 @@ button {
 
 button:hover {
     background-color: orangered;
-}
+} */
 
 /*-----footer section------*/
 
