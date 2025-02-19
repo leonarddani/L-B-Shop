@@ -1,0 +1,160 @@
+[
+    {
+        "name": "Samba OG",
+        "description": "This is the original model, built with a combination of leather and suede material, featuring a rubber sole and the characteristic three stripes. The name 'Samba' is stamped in gold letters near the stripes.",
+        "image": "/img/og.png",
+        "quantity": 3,
+        "thumbnail": "/img/og.png",
+        "price": "$90.00",
+        "brand": "SambaOg",
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000",
+                "image": "/img/black.png"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/red.png"
+            },
+            {
+                "name": "Pink",
+                "hex": "#FFC0CB",
+                "image": "/img/pink.png"
+            }
+        ]
+    },
+    {
+        "name": "Samba Classic",
+        "description": "Designed specifically for indoor soccer, this model has an extended tongue and a lightweight construction with synthetic material and EVA sole for added comfort.",
+        "image": "/img/classic.png",
+        "quantity": 3,
+        "thumbnail": "/img/classic.png",
+        "price": "$75.00",
+        "brand": "SambaClassic",
+        "colors": [
+            {
+                "name": "White",
+                "hex": "#ffffff",
+                "image": "/img/c-white.png"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/c-red.png"
+            },
+            {
+                "name": "Pink",
+                "hex": "#FFC0CB",
+                "image": "/img/c-pink.png"
+            }
+        ]
+    },
+    {
+        "name": "Air Jordan 3",
+        "description": "The third model in the Air Jordan line, introduced in 1988. It was the first to feature the Jumpman logo and visible Air cushioning.",
+        "image": "/img/jordan3.png",
+        "quantity": 3,
+        "thumbnail": "/img/jordan3.png",
+        "price": "$80.00",
+        "brand": "AirJordan",
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000",
+                "image": "/img/3-black.png"
+            },
+            {
+                "name": "Blue",
+                "hex": "#0000FF",
+                "image": "/img/3-blue.png"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/e-red.png"
+            }
+        ]
+    },
+    {
+        "name": "Nike Blazer Low",
+        "description": "A low-top version of the classic Blazer silhouette. It’s great for everyday wear and has a more casual vibe.",
+        "image": "/img/blazerlow.png",
+        "quantity": 3,
+        "thumbnail": "/img/blazerlow.png",
+        "price": "$60.00",
+        "brand": "NikeBlazerLow",
+        "colors": [
+            {
+                "name": "Black",
+                "hex": "#000000",
+                "image": "/img/blazer-black.png"
+            },
+            {
+                "name": "Blue",
+                "hex": "#0000FF",
+                "image": "/img/blazer-blue.png"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/blazer-red.png"
+            }
+        ]
+    },
+    {
+        "name": "Adidas Campus 00s",
+        "description": "A modern version of the classic model with a wider and thicker silhouette, very popular in the streetwear scene.",
+        "image": "/img/campus.png",
+        "quantity": 3,
+        "thumbnail": "/img/campus.png",
+        "price": "$60.00",
+        "brand": "AdidasCampus",
+        "colors": [
+            {
+                "name": "White",
+                "hex": "#ffffff",
+                "image": "/img/campus-white.jpg"
+            },
+            {
+                "name": "Blue",
+                "hex": "#0000FF",
+                "image": "/img/campus-blue.jpg"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/campus-red.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Adidas Campus x Bad Bunny",
+        "description": "A collaboration with the famous artist Bad Bunny, with a personalized style and unique details.",
+        "image": "/img/bunny.jpg",
+        "quantity": 3,
+        "thumbnail": "/img/bunny.png",
+        "price": "$60.00",
+        "brand": "AdidasCampus",
+        "colors": [
+            {
+                "name": "White",
+                "hex": "#ffffff",
+                "image": "/img/bunny-white.jpg"
+            },
+            {
+                "name": "Blue",
+                "hex": "#0000FF",
+                "image": "/img/bunny-blue.jpg"
+            },
+            {
+                "name": "Red",
+                "hex": "#ff0000",
+                "image": "/img/bunny-red.jpg"
+            }
+        ]
+    }
+]
+
+
