@@ -1,0 +1,464 @@
+@import url(variablat.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 70px;
+    background-color: var(--sandy-brown);
+    
+}
+
+
+.logo {
+font-weight: bold;
+font-size: 30px;
+font-family: var(--Lora-font);
+}
+
+
+.nav-bar-list{
+    display: flex;  
+    align-items: center;  
+    gap: 20px;
+    font-size: 20px;
+    font-family: var(--poppins-font);
+    
+}
+
+.nav-bar-list li{
+    list-style: none;
+
+}
+
+
+.nav-bar-list li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-bar-list li a:hover{
+    color: orangered;
+}
+.sales{
+    
+    border: none;
+    border-radius: 20px;
+    background-color:#fff;
+    width: 100px;
+    height: 100px;
+}
+/*------hero section------*/
+ 
+.hero-section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: solid var(--shoe-color);
+    justify-content: space-evenly;
+    padding: 70px;
+}
+
+/* modal-container */
+ .modal-container {
+        position: absolute;
+        top: 77px;
+        right: 29px;
+        width: 260px;
+        height: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(103, 103, 103);
+        border: solid green;
+        overflow-y: auto;
+        gap: 10px;
+    }
+    
+    .shop-card {
+        width: 100%;
+        height: 80px;
+        background-color: lightgray;
+        border: 1px solid #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+
+
+.shop-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 21, 21);
+   
+}
+
+.shop-card-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    
+    
+}
+
+.product-quantity button:first-of-type{
+  
+   border: 1px solid gray;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius:8px;
+   cursor: pointer;
+}
+.midle-btn{
+  
+   border: 1px solid gray;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius:8px;
+   cursor: pointer;
+}
+.product-quantity button:last-of-type{
+   
+    border: 1px solid gray;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+    cursor: pointer;
+}
+
+
+ .quantity{
+   display: flex;
+   align-items: center;
+   border: 1px solid gray;
+   background-color: #fff;
+ }
+
+
+/* modal-container */
+.hero-section:hover {
+    border-color:darkred; 
+    transition: background-color 0.7s ease-in-out;
+}
+
+
+.hero-content {
+    max-width: 600px;
+    height: fit-content;
+    background-color: var(--light-pink);
+}
+
+.description{
+    max-width: 100%;
+    overflow-wrap: break-word;
+    font-size: 28px;
+    font-family: var(--poppins-font);
+    line-height: 1.6;
+    border: none;
+    background-color: var(--hot-pink);
+}
+
+.image-container img{
+    width: 400px;
+    height: 400px;
+    font-size: 50px;
+    transform: rotate(-10deg);
+}
+
+.hero-btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 90px;
+    border: none;
+    background-color: rgb(176, 163, 163);
+    color: black;
+    font-weight: 800;
+}
+.hero-btn:hover{
+    background-color: orangered;
+}
+/*------hero section------*/
+/*-------main section------*/
+.brands h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.main-section {
+    background-color: var(--sandy-brown);
+    width: 300px;
+    margin: 0 auto; 
+}
+
+.brands{
+    text-align: center;
+    font-family: var(--Lora-font);
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 50px; 
+    margin-top: 50px;
+}
+
+/* Stilizimi i kartave */
+.card {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    border: 1px solid var(--shoe-color);
+    background-color: #f4e1c1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 50px;
+    margin: 70px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    color: orangered;
+    border-color: darkred;
+    box-shadow: black;
+    border-radius: 10px;
+
+}
+.card h2{
+    margin-top: -80px;
+}
+
+.shoe {
+    position: absolute;
+    top: 85px;
+    width: 250px;
+    transform: rotate(-10deg);
+    z-index: 10;
+}
+.card .adidas-campus {
+    width: 400px;  
+    height: auto;  
+}
+.card .nike-blazer{
+    margin-top: -30px;
+}
+.card .air-jordan{
+    margin-top: -30px;
+}
+.card .samba{
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color: black;
+}
+.order {
+    margin-top: auto; 
+    margin-bottom: -30px;  
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: #000;
+    color: #fff;
+    width: 400px;
+    height: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* cards */
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 20px;
+
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+    height: 450px;
+    border: solid red;
+    padding: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.card-image img{
+    width: 250px;
+    /* transform: scaleX(-1) rotate(-14deg); */
+    transform:  rotate(5deg); 
+    
+
+}
+
+.card-content{
+  
+    z-index: 1;
+    
+}
+
+.card-content h1{
+font-size: 30px;
+}
+
+.card-content p{
+    margin-top: 10px;
+    font-size: 16px;
+} 
+
+.card-features{
+    display: flex;
+   
+    align-items: center;
+    gap: 0px;
+}
+
+.dot{
+    display: inline-block;
+    padding: 8px 8px; /* Space inside the spans */
+    cursor: pointer;
+    
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Rounded corners */
+    transition: background-color 0.3s;
+    background-color: red;
+    
+}
+
+.price{
+   margin-left: 140px;
+   font-weight: bold ;
+}
+
+.card-btn{
+   width: 100%;
+   height: 27px;
+   margin-top: 10px;
+   border-radius: 40px;
+   border: none;
+   cursor: pointer;
+}
+
+/*----Video section-----*/
+.video-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: whitesmoke; 
+}
+
+.video-info {
+    width: 800px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.video-info iframe {
+    max-width: 300%;
+    max-height: 300%;
+}
+
+
+/*----Video section-----*/
+#myForm {
+    width: 500px;
+    height: 450px;
+    margin: 80px ; 
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    border-color: gray;
+    box-shadow: black;
+    outline: none;
+}
+
+
+button {
+    background-color: var(--shoe-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: orangered;
+}
+
+/*-----footer section------*/
+
+.footer-section{
+    background-color: var(--sandy-brown);
+    height: 200px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 100%;
+    font-size: 20px;
+}
+.icons{
+    font-size: 40px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----footer section------*/
