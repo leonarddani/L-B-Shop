@@ -16,6 +16,10 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- toastyfy -->
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        
     <!-- css-files linked  -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -31,6 +35,8 @@
                 <li><a href="">Home</li></a>
                 <li><a href="">About</li></a>
                 <li id="shop"><i class="fa-solid fa-cart-shopping"></i></li>
+                <span class="card-badge">0</span>
+
                 <li><i class="fa-solid fa-user"></i></li>
 
             </ul>
@@ -42,119 +48,54 @@
     <section class="hero-section">
         <!-- shop-modal -->
         <div class="modal-container">
+            <div class="checkoutbtn">
+                <button>Checkout</button>
+            </div>
+            <span class="close-btn">X</span>
+
+           
+            <div class="shop-card">
+
+
+                <img src="img/images.jpeg" alt="">
+
+                <div class=" shop-card-content flex ">
+
+                    <button class="increase"><i class=" fa-solid fa-plus"></i></button>
+                    <span class="quantity">4</span>
+                    <style>
+
+                    </style>
+                    <button class="decrease midle-btn"><i class="fa-solid fa-minus"></i></button>
+
+                    <button><i class="fa-solid fa-trash"></i></button>
+
+                </div>
+            </div>
+            <div class="shop-card">
+
+
+                <img src="img/images.jpeg" alt="">
+
+                <div class=" shop-card-content flex ">
+                    <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
+
+                    <span class="quantity">4</span>
+                    <style>
+
+                    </style>
+                    <button><i class=" fa-solid fa-plus"></i></button>
+
+                    <button><i class="fa-solid fa-trash"></i></button>
+
+                </div>
+            </div>
         
-        
-      <div class="shop-cards">
-      
-       
-        <div class="shop-card">
+            <div class="checkoutbtn">
+                <button>Checkout</button>
+            </div>
 
 
-            <img src="img/images.jpeg" alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-        <div class="shop-card">
-
-
-            <img src="img/images.jpeg"  alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-
-
-
-        
-       
-       
-       
-        <div class="shop-card">
-
-
-            <img src="img/images.jpeg" alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-        <div class="shop-card">
-
-
-            <img src="img/images.jpeg" alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-        <div class="shop-card">
-
-
-            <img src="img/images.jpeg" alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <style>
-
-            </style>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-        <div class="shop-card">
-
-
-            <img src="img/images.jpeg" alt="">
-             
-             <div class=" shop-card-content flex ">
-                    
-                    <button><i class=" fa-solid fa-plus"></i></button>
-            <span class="quantity">4</span>
-            <style>
-
-            </style>
-            <button class="midle-btn"><i class="fa-solid fa-minus"></i></button>
-
-            <button><i class="fa-solid fa-trash"></i></button>
-
-        </div>
-        </div>
-        <div class="checkoutbtn">
-            <button>Checkout</button>
-        </div>
-        </div>
-       
         </div>
 
         <!-- shop-modal -->
@@ -170,7 +111,7 @@
             </p>
 
 
-            <button class="hero-btn">Order Naw</button>
+            <a href="#cards-section" class="hero-btn" >Order Naw</a>
 
         </div>
 
@@ -193,7 +134,7 @@
             <div class="card">
                 <img class="shoe samba" src="/img/samba.png" alt="Adidas Samba">
                 <h2>Adidas Samba</h2>
-             
+
             </div>
         </a>
 
@@ -202,7 +143,7 @@
             <div class="card">
                 <img class="shoe air-jordan" src="/img/jordan.png" alt="Air Jordan">
                 <h2>Air Jordan</h2>
-                
+
             </div>
             </div>
         </a>
@@ -212,7 +153,7 @@
             <div class="card">
                 <img class="shoe nike-blazer" src="/img/blazer.png" alt="Nike Blazer Low">
                 <h2>Nike Blazer Low</h2>
-                
+
             </div>
             </div>
         </a>
@@ -222,7 +163,7 @@
             <div class="card">
                 <img class="shoe adidas-campus" src="/img/campus.png" width="250px" alt="Adidas Campus">
                 <h2>Adidas Campus</h2>
-                
+
             </div>
         </a>
 
@@ -230,254 +171,26 @@
 
 
 
-    <!-- main-section -->
-
-    <!-- container -->
-    <section class="cards-section">
+    <section id="cards-section" class="cards-section">
         <div class="left-container">
             <div class="left-content">
                 <h3>categories</h3>
                 <div class="left-categories">
-                <button class="cards-left-section-btn">Adidas Samba</button>
-                <button class="cards-left-section-btn">Air Jordan</button>
-                <button class="cards-left-section-btn">Nike Blazzer Low</button>
-                <button class="cards-left-section-btn">Adidas Campus</button>
-            </div>
+                    <button class="cards-left-section-btn">all</button>
+                    <button class="cards-left-section-btn">Adidas Samba</button>
+                    <button class="cards-left-section-btn">Air Jordan</button>
+                    <button class="cards-left-section-btn">Nike Blazzer Low</button>
+                    <button class="cards-left-section-btn">Adidas Campus</button>
+                </div>
             </div>
         </div>
-        <!-- card -->
+
+        <!-- card container -->
         <div class="cards-container">
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
+            <!-- Product cards will be inserted here dynamically -->
         </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
+    </section>
 
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-        <div class="card1">
-            <div class="card-image">
-                <img src="img/f8c6b24a-1685-4e04-a8b8-3fd2ee3a469c.jpg" alt="">
-            </div>
-            <div class="card-content">
-                <h1>Adidas Gazw ZX</h1>
-                <p>Lorem ipsum dolor sgfdgfdgfdfgdfgfgdfggdfgdfgdgit.l loremm56</p>
-                <span class="stars"></span>
-
-                <div class="card-features">
-
-
-
-                    <span>colors:</span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-
-                    <span class="price">$90.00</span>
-
-
-                </div>
-
-                <button class="card-btn">Add To Card</button>
-            </div>
-
-        </div>
-    </div>
-        <!-- End-card -->
-
-
-        </div>
-        <!-- tt -->
-        
     </section>
     <!-- end-of-container -->
 
@@ -496,8 +209,8 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
 
-            <label for="password">password:</label>
-            <input type="password" id="password" name="password" minlength="6">
+            <label for="subject">subject:</label>
+            <input type="text" id="text" name="text" minlength="6">
 
             <button type="submit">Submit</button>
         </form>
@@ -522,6 +235,9 @@
 
     <!-- linking js  -->
     <script src="js/script.js"></script>
+    <script src="js/modal-js.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.js"></script>
+        
 </body>
 
 </html>

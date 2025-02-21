@@ -1,12 +1,13 @@
 [
     {
+        "id": 1,
         "name": "Samba OG",
-        "description": "This is the original model, built with a combination of leather and suede material, featuring a rubber sole and the characteristic three stripes. The name 'Samba' is stamped in gold letters near the stripes.",
+        "description": "This is the classic version of Adidas Samba with a leather upper and suede overlays. The design includes gold lettering near the stripes.",
         "image": "/img/og.png",
         "quantity": 3,
         "thumbnail": "/img/og.png",
         "price": "$90.00",
-        "brand": "SambaOg",
+        "brand": "Adidas Samba",
         "colors": [
             {
                 "name": "Black",
@@ -26,13 +27,14 @@
         ]
     },
     {
+        "id": 2,
         "name": "Samba Classic",
-        "description": "Designed specifically for indoor soccer, this model has an extended tongue and a lightweight construction with synthetic material and EVA sole for added comfort.",
+        "description": "Designed with a durable leather upper and EVA sole for added comfort.",
         "image": "/img/classic.png",
         "quantity": 3,
         "thumbnail": "/img/classic.png",
         "price": "$75.00",
-        "brand": "SambaClassic",
+        "brand": "Adidas Samba",
         "colors": [
             {
                 "name": "White",
@@ -52,13 +54,14 @@
         ]
     },
     {
+        "id": 3,
         "name": "Air Jordan 3",
-        "description": "The third model in the Air Jordan line, introduced in 1988. It was the first to feature the Jumpman logo and visible Air cushioning.",
+        "description": "The third edition of the Air Jordan series featuring the iconic Jumpman logo and visible Air cushioning.",
         "image": "/img/jordan3.png",
         "quantity": 3,
         "thumbnail": "/img/jordan3.png",
         "price": "$80.00",
-        "brand": "AirJordan",
+        "brand": "Air Jordan",
         "colors": [
             {
                 "name": "Black",
@@ -78,13 +81,14 @@
         ]
     },
     {
+        "id": 4,
         "name": "Nike Blazer Low",
-        "description": "A low-top version of the classic Blazer silhouette. It’s great for everyday wear and has a more casual vibe.",
+        "description": "A low-top version of the classic Nike Blazer, featuring a sleeker silhouette and a more casual vibe.",
         "image": "/img/blazerlow.png",
         "quantity": 3,
         "thumbnail": "/img/blazerlow.png",
         "price": "$60.00",
-        "brand": "NikeBlazerLow",
+        "brand": "Nike Blazzer Low",
         "colors": [
             {
                 "name": "Black",
@@ -104,13 +108,14 @@
         ]
     },
     {
+        "id": 5,
         "name": "Adidas Campus 00s",
-        "description": "A modern version of the classic model with a wider and thicker silhouette, very popular in the streetwear scene.",
+        "description": "A modern version of the classic Adidas Campus, featuring a chunkier sole and a design that’s popular in the streetwear scene.",
         "image": "/img/campus.png",
         "quantity": 3,
         "thumbnail": "/img/campus.png",
         "price": "$60.00",
-        "brand": "AdidasCampus",
+        "brand": "Adidas Campus",
         "colors": [
             {
                 "name": "White",
@@ -130,13 +135,14 @@
         ]
     },
     {
+        "id": 6,
         "name": "Adidas Campus x Bad Bunny",
-        "description": "A collaboration with the famous artist Bad Bunny, with a personalized style and unique details.",
+        "description": "A collaboration with Bad Bunny featuring a personalized style and unique details.",
         "image": "/img/bunny.jpg",
         "quantity": 3,
         "thumbnail": "/img/bunny.png",
         "price": "$60.00",
-        "brand": "AdidasCampus",
+        "brand": "Adidas Campus",
         "colors": [
             {
                 "name": "White",
@@ -156,5 +162,3 @@
         ]
     }
 ]
-
-
